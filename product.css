@@ -1,0 +1,159 @@
+#main{
+	/*width: 100%;*/
+	text-align: center;
+	background-color: rgba(242,242,242,1);
+}
+.checkbox{
+	display: inline-block;
+	position: relative;
+}
+.checkbox input[type='checkbox']{
+	position: relative;
+	top: 0;
+	left: 0;
+	display: inline-block;
+	z-index: 1;
+	cursor: pointer;
+}
+.checkbox span{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+	position: relative;
+	z-index: 2;
+}
+.pa1{
+	/*border: solid 1px black;*/
+	display: inline-block;
+	width: 100%;
+	margin-top: 30px;
+}
+.pa1 .left,.right{
+	float: left;
+	display: inline-block;
+	height: 32px;
+	line-height: 32px;
+}
+.pa1 .left{
+	text-align: left;
+	padding-left: 20px;
+}
+.pa1 .left span:before{
+	font-size: 8px;
+}
+.pa1 .right{
+	float: right;
+	border-radius: 4px;
+	text-align: right;
+	background-color: rgba(0,0,0,1);
+	color: rgba(255,255,255,1);
+	padding: 8px 16px;
+	line-height: 8px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.pa1 .right a{
+	color: white;
+	text-decoration: none;
+}
+.pa1 .right span{
+	margin-left: 8px;
+}
+.pa2{
+	width: 100%;
+	border-spacing: 0px;
+	margin-top: 15px;
+	/*border: solid 1px black;*/
+}
+.pa2 thead{
+	width: 100%;
+}
+.pa2 thead th{
+	/*border: solid 1px black;*/
+	height: 40px;
+	line-height: 40px;
+	background-color: rgba(255,255,255,1);
+}
+tbody tr td{
+	padding: 16px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.pa2 .product *{
+	text-align: left;
+	float: left;
+	/*line-height: 1px;*/
+}
+.pa2 .checkbox{
+	margin-top: calc((50px - 16px) / 2);
+}
+.pa2 .product .pic{
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+	/*margin: 20px 0px;*/
+	margin-left: 8px;
+}
+.pa2 .product img{
+	width: 100%;
+}
+.pa2 span{
+	margin-top: calc((50px - 18px) / 2 );
+	margin-left: 8px;
+	height: 18px;
+	line-height: 18px;
+}
+.pa2 .info{
+	/*border: solid 1px black;*/
+	width: 100%;
+}
+.pa2 .info +.info{
+	border-top: solid 1px rgba(255,255,255,1);
+}
+.pa2 .info *{
+	float: left;
+	display: inline-block;
+}
+.pa2 .size{
+	width: 32px;
+	text-align: center;
+	line-height: 70px;
+}
+.pa2 .color{
+	width: 146px;
+	text-align: center;
+	margin-bottom: 8px;
+}
+.pa2 .color span{
+	width: 100%;
+}
+.pa2 .inventory{
+	width: 72px;
+	text-align: right;
+}
+.pa2 .inventory span{
+	width: 100%;
+}
+.second{
+	background-color: rgba(235,235,235,1);
+}
+.status .select{
+	background-color: rgba(126,211,33,1);
+	color: white;
+	padding: 8px 16px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.status .select option{
+	background-color: rgba(255,255,255,1);
+	color: black;
+	font-size: bold;
+}
+.third *{
+	color: rgba(155,155,155,1);
+}
+.third .select{
+	background-color: rgba(155,155,155,1);
+	color: rgba(255,255,255,1);
+}

@@ -1,0 +1,84 @@
+@chartset "UTF-8";
+*{
+	-webkit-box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+	      box-sizing: border-box;
+}
+html{
+	background-color: rgba(242,242,242,1);
+}
+.clearfix:after {
+	display: block;
+	content: "";
+	clear: both;
+}
+.green{
+	color: rgba(126,211,33,1);
+}
+.red{
+	color: red;
+}
+.blue{
+	color: blue;
+}
+.container{
+	display: inline-block;
+	width: 100%;
+	max-width: 940px;
+	margin: 0 auto;
+}
+#header{
+	/*display: inline-block;*/
+	width: 100%;
+	background-color: rgba(0,0,0,1);
+	text-align: center;
+	height: 70px;
+
+}
+/*#header .container{
+	display: inline-block;
+	width: 100%;
+	max-width: 940px;
+	margin: 0 auto;
+}*/
+#header .container *{
+	/*border: solid 1px white;*/
+	float: left;
+	display: inline-block;
+	height: 70px;
+	line-height: 70px;
+}
+.shoptime{
+	color: white;
+	width: 150px;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: left;
+}
+.cata{
+	/*border: solid 1px white;*/
+	width: calc(100% - 150px - 54px);
+	/*margin-left: 20px*/
+}
+.cata a{
+	color: rgba(155,155,155,1);
+	display: inline-block;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 0px 16px;
+}
+.cata .active{
+	color: rgba(255,255,255,1);
+	border-bottom: solid 2px white;
+}
+.cata a:hover{
+	color: white;
+	border-bottom: solid 2px white;
+}
+.admin{
+	color: white;
+	width: 54px;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: right;
+}
